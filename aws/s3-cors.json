@@ -1,0 +1,23 @@
+[
+  {
+    "AllowedHeaders": [
+      "Content-Type",
+      "Content-Disposition",
+      "x-amz-meta-original-filename"
+    ],
+    "AllowedMethods": [
+      "PUT",
+      "GET",
+      "HEAD"
+    ],
+    "AllowedOrigins": [
+      "http://localhost:3000",
+      "https://your-production-domain.com"
+    ],
+    "ExposeHeaders": [
+      "ETag",
+      "x-amz-request-id"
+    ],
+    "MaxAgeSeconds": 3600
+  }
+]
